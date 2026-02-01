@@ -19,7 +19,7 @@ function selectOption(option) {
         yesButton.style.fontSize = newSize + 'px';
     } else {
         // If neither "Da" nor "Nu" was clicked, show an alert message
-        alert('Invalid option!');
+        alert('Trebuie sa alegi!');
     }
 }
 
@@ -78,4 +78,5 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
 
