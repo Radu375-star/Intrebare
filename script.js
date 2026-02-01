@@ -9,7 +9,7 @@ function selectOption(option) {
             document.getElementById('question').style.display = 'none'; // Hide the question
             displayCatHeart(); // Display the cat-heart.gif
         });
-    } else if (option === 'Nu ai voie sa alegi raspunsul asta') {
+    } else if (option === 'Nu') {
         // Change text on the "Nu" button to "Sigur?"
         document.getElementById('no-button').innerText = 'Sigur?'; 
         // Increase font size of "Da" button
@@ -78,3 +78,4 @@ function displayCatHeart() {
 
 // Display the cat.gif initially
 displayCat();
+
